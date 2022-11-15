@@ -1,0 +1,39 @@
+DELETE  http://localhost:3001/api/persons/4
+
+###
+
+GET  http://localhost:3001/api/persons/2
+
+###
+
+POST  http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "wasim akram",
+  "number": "91-23-145671"
+}
+
+###
+
+GET  http://localhost:3001/api/persons
+
+###
+
+POST  http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "number": "91-23-145671"
+}
+
+###
+
+POST  http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "91-23-145671"
+}
+
