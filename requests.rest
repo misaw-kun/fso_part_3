@@ -1,12 +1,12 @@
-DELETE  http://localhost:3001/api/persons/4
+DELETE  http://localhost:3000/api/persons/4
 
 ###
 
-GET  http://localhost:3001/api/persons/2
+GET  http://localhost:3000/api/persons/2
 
 ###
 
-POST  http://localhost:3001/api/persons
+POST  http://localhost:3000/api/persons
 content-type: application/json
 
 {
@@ -16,11 +16,11 @@ content-type: application/json
 
 ###
 
-GET  http://localhost:3001/api/persons
+GET  http://localhost:3000/api/persons
 
 ###
 
-POST  http://localhost:3001/api/persons
+POST  http://localhost:3000/api/persons
 content-type: application/json
 
 {
@@ -29,7 +29,7 @@ content-type: application/json
 
 ###
 
-POST  http://localhost:3001/api/persons
+POST  http://localhost:3000/api/persons
 content-type: application/json
 
 {
@@ -37,3 +37,6 @@ content-type: application/json
   "number": "91-23-145671"
 }
 
+###
+
+GET  http://localhost:3000/api/info
