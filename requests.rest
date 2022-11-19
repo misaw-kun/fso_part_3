@@ -1,8 +1,8 @@
-DELETE  http://localhost:3000/api/persons/4
+DELETE  http://localhost:3000/api/persons/6377eba53ce732bda10cc8c2
 
 ###
 
-GET  http://localhost:3000/api/persons/2
+GET  http://localhost:3000/api/persons/6378fc3b4c38384377aed8ff
 
 ###
 
@@ -40,3 +40,17 @@ content-type: application/json
 ###
 
 GET  http://localhost:3000/api/info
+
+###
+
+GET  http://localhost:3000/api/information
+
+###
+
+PUT  http://localhost:3000/api/persons/6377f15070893dcd17e1dd2b
+Content-Type: application/json
+
+{
+  "name": "wasim akram",
+  "number": "91-12-243952"
+}
